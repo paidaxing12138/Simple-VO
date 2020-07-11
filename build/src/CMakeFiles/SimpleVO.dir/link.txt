@@ -1,0 +1,1 @@
+g++ -fPIC -std=c++11 -march=native -O3 -O3 -DNDEBUG  -shared -Wl,-soname,libSimpleVO.so -o ../../lib/libSimpleVO.so CMakeFiles/SimpleVO.dir/frame.cpp.o CMakeFiles/SimpleVO.dir/MapPoint.cpp.o CMakeFiles/SimpleVO.dir/map.cpp.o CMakeFiles/SimpleVO.dir/camera.cpp.o CMakeFiles/SimpleVO.dir/config.cpp.o CMakeFiles/SimpleVO.dir/visual_odometry.cpp.o 
